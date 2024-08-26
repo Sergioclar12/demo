@@ -1,0 +1,47 @@
+/* General styles for the container */
+.employee-details {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 500px;
+    margin: auto;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header style */
+h3 {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Style for each detail item */
+.detail-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.detail-item:last-child {
+    border-bottom: none;
+}
+
+/* Label style */
+.detail-item label {
+    font-weight: bold;
+    color: #555;
+}
+
+/* Span style for details */
+.detail-item span {
+    color: #333;
+    font-size: 16px;
+}
+
+/* Add some space between sections */
+.employee-details > div {
+    margin-bottom: 10px;
+}
