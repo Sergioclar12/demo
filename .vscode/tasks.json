@@ -37,6 +37,19 @@
           }
         }
       }
+    },
+    {
+      "command": "mvn",
+      "type": "shell",
+      "group": "build",
+      "args": [
+        "clean",
+        "package"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "label": "package:gestion-empleados-backend"
     }
   ]
 }
